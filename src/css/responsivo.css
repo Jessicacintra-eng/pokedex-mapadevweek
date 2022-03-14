@@ -16,6 +16,10 @@
         width: 200px;
         height: 200px;
     }
+    .cartao-pokemon img {
+        max-width: 200px;
+        max-height: 100%;
+    }
 
     .cartao-pokemon .cartao-informacoes {
         padding: 60px 30px 30px;
@@ -33,6 +37,7 @@
     }
 
     .listagem {
+        order:0;
         max-width: 300px;
     }
 

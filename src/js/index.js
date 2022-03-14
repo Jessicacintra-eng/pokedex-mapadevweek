@@ -18,6 +18,8 @@ listaSelecaoPokemon.forEach(pokemon => {
 
         const pokemonSelecionadoNaListagem = document.getElementById(idPokemonSelecionado)
         pokemonSelecionadoNaListagem.classList.add('ativo')
+
+        window.scrollTo(0, 0);
         
     })
 
